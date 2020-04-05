@@ -6,14 +6,12 @@
           th Name
           th(colspan='2') Star Powers
       tbody
-        tr(v-for="brawler in brawlers" v-bind:key="brawler.id")
-          td {{brawler.name}}
-          template(v-for="starPower in brawler.starPowers")
-            td {{ starPower.name }}
+        brawler(v-for="brawler in brawlers" v-bind:key="brawler.id" v-bind:brawler="brawler")
 </template>
 
 <script>
 import brawlers from '../../../public/sample-response-brawlers.json'
+import Brawler from './Brawler.vue'
 
 export default {
   name: 'BrawlersTable',
@@ -22,6 +20,9 @@ export default {
       brawlers: brawlers.items,
     }
   },
+  components: {
+    Brawler
+  }
 }
 </script>
 
