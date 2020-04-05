@@ -3,16 +3,16 @@
     <div class="container">
       <ul class="navbar-list">
         <li class="navbar-item">
-          <a class="navbar-link" href="#route-1">Route 1</a>
+          <router-link to="/" class="navbar-link">Home</router-link>
         </li>
         <li class="navbar-item">
-          <a class="navbar-link" href="#route-2">Route 2</a>
+          <router-link to="/brawlers" class="navbar-link">Brawlers</router-link>
         </li>
         <li class="navbar-item">
-          <a class="navbar-link" href="#route-3">Route 3</a>
+          <router-link to="/players" class="navbar-link">Players</router-link>
         </li>
         <li class="navbar-item">
-          <a class="navbar-link" href="#route-4">Route 4</a>
+          <router-link to="/clans" class="navbar-link">Clans</router-link>
         </li>
       </ul>
     </div>
