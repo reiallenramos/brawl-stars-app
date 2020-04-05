@@ -3,7 +3,7 @@
     table.u-full-width
       thead
         tr
-          th Name
+          th Brawler
           th(colspan='2') Star Powers
       tbody
         brawler(v-for="brawler in brawlers" v-bind:key="brawler.id" v-bind:brawler="brawler")
