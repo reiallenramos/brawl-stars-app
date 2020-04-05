@@ -1,3 +1,4 @@
-<template>
-  <div>Clans</div>
+<template lang="pug">
+  div
+    | Clans
 </template>

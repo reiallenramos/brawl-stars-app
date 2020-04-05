@@ -1,7 +1,6 @@
-<template>
-  <div id="app">
-    <Container />
-  </div>
+<template lang="pug">
+  #app
+    Container
 </template>
 
 <script>

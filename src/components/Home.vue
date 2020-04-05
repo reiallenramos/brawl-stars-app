@@ -1,3 +1,4 @@
-<template>
-  <div>Home</div>
+<template lang="pug">
+  div
+    | Home
 </template>

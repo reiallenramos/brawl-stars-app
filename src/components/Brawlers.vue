@@ -1,3 +1,4 @@
-<template>
-  <div>Brawlers</div>
+<template lang="pug">
+  div
+    | Brawlers
 </template>
