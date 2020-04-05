@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": 16000000,
+      "name": "SHELLY",
+      "type": "Fighter",
+      "description": "Shelly's spread-fire shotgun blasts the other team with buckshot. Her Super destroys cover and keeps her opponents at a distance",
+      "starPowers": [
+        {
+          "id": 23000076,
+          "name": "Shell Shock"
+        },
+        {
+          "id": 23000135,
+          "name": "Band-Aid"
+        }
+      ]
+    },
+    {
+      "id": 16000001,
+      "name": "COLT",
+      "starPowers": [
+        {
+          "id": 23000077,
+          "name": "Slick Boots"
+        },
+        {
+          "id": 23000138,
+          "name": "Magnum Special"
+        }
+      ]
+    },
+    {
+      "id": 16000002,
+      "name": "BULL",
+      "starPowers": [
+        {
+          "id": 23000078,
+          "name": "Berserker"
+        },
+        {
+          "id": 23000137,
+          "name": "Tough Guy"
+        }
+      ]
+    }
+  ],
+  "paging": {
+    "cursors": {}
+  }
+}
