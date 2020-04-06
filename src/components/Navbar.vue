@@ -24,6 +24,7 @@
 }
 
 .navbar {
+  z-index: 1000;
   >.container {
     width: 100%;
 
