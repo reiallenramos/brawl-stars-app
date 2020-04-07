@@ -1,5 +1,7 @@
 <template lang="pug">
   main-content
+    .button(v-on:click="sort('name')") Sort by Name
+    .button(v-on:click="sort('class')") Sort by Class
     .grid
       .row
         .four.columns(v-for="brawler in brawlers.slice(0,3)" v-bind:key="brawler.id")
@@ -45,11 +47,39 @@ import MainContentSection from './MainContentSection.vue'
 import BrawlerCard from './BrawlerCard.vue'
 import BrawlersData from '../../public/sample-response-brawlers.json'
 
+let defaultOrder = BrawlersData.items.sort(function(a, b) {
+  return (a.name > b.name) ? 1 : -1;
+});
+
 export default {
   name: 'Brawlers',
   data() {
     return {
-      brawlers: BrawlersData.items,
+      currentSort: 'ASC',
+      brawlers: defaultOrder,
+    }
+  },
+  methods: {
+    sort(type) {
+      let _that = this;
+      BrawlersData.items.sort(function(a, b) {
+        let res;
+        if (type == 'name') {
+          if (_that.currentSort == 'ASC') {
+            res = (a.name > b.name) ? 1 : -1;
+          } else {
+            res = (a.name > b.name) ? -1 : 1;
+          }
+        } else if (type == 'class') {
+          if (_that.currentSort == 'ASC') {
+            res = (a.class > b.class) ? 1 : -1;
+          } else {
+            res = (a.class > b.class) ? -1 : 1;
+          }
+        }
+        return res;
+      });
+      this.currentSort = this.currentSort == 'ASC' ? 'DESC' : 'ASC';
     }
   },
   components: {
