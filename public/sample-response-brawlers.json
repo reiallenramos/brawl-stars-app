@@ -3,6 +3,9 @@
     {
       "id": 16000000,
       "name": "SHELLY",
+      "class": "Fighter",
+      "description": "Shelly's spread-fire shotgun blasts the other team with buckshot. Her Super destroys cover and keeps her opponents at a distance!",
+      "rarity": "Trophy Road",
       "starPowers": [
         {
           "id": 23000076,
@@ -17,6 +20,8 @@
     {
       "id": 16000001,
       "name": "COLT",
+      "class": "Sharpshooter",
+      "description": "Colt fires an accurate burst of bullets from his dual revolvers. His Super shreds cover and extends the bullet barrage!",
       "starPowers": [
         {
           "id": 23000077,
@@ -31,6 +36,8 @@
     {
       "id": 16000002,
       "name": "BULL",
+      "class": "Heavyweight",
+      "description": "Bull deals massive damage up close with his shotgun. For his Super move, he charges through barriers and knocks back enemies!",
       "starPowers": [
         {
           "id": 23000078,
@@ -45,6 +52,8 @@
     {
       "id": 16000003,
       "name": "BROCK",
+      "class": "Sharpshooter",
+      "description": "Brock fires a long-range, explosive rocket at enemies. His Super is a ballistic rocket barrage that destroys cover!",
       "starPowers": [
         {
           "id": 23000079,
@@ -59,6 +68,8 @@
     {
       "id": 16000004,
       "name": "RICO",
+      "class": "Sharpshooter",
+      "description": "Rico fires a burst of bullets that bounce off walls. His Super burst is a long barrage of bouncy bullets that pierce targets!",
       "starPowers": [
         {
           "id": 23000080,
@@ -73,6 +84,8 @@
     {
       "id": 16000005,
       "name": "SPIKE",
+      "class": "Sharpshooter",
+      "description": "Spike throws cactus grenades that send needles flying, and a show-stopping Super: a field of cactus spines that slows down and damages enemies!",
       "starPowers": [
         {
           "id": 23000081,
@@ -87,6 +100,8 @@
     {
       "id": 16000006,
       "name": "BARLEY",
+      "class": "Thrower",
+      "description": "Barley attacks by lobbing bottles at enemies, doing splash damage. His Super is a huge barrage of burning bottles!",
       "starPowers": [
         {
           "id": 23000082,
@@ -101,6 +116,8 @@
     {
       "id": 16000007,
       "name": "JESSIE",
+      "class": "Fighter",
+      "description": "Jessie's Shock Rifle shoots energy orbs that bounce between enemies. Her Super deploys a cute but deadly gun turret!",
       "starPowers": [
         {
           "id": 23000083,
@@ -115,6 +132,8 @@
     {
       "id": 16000008,
       "name": "NITA",
+      "class": "Fighter",
+      "description": "Nita strikes her enemies with a thunderous shockwave. Her Super summons a massive bear to fight by her side!",
       "starPowers": [
         {
           "id": 23000084,
@@ -129,6 +148,8 @@
     {
       "id": 16000009,
       "name": "DYNAMIKE",
+      "class": "Thrower",
+      "description": "Dynamike lobs two explosive sticks of dynamite. His Super attack is a whole barrel full of dynamite that blows up cover!",
       "starPowers": [
         {
           "id": 23000085,
@@ -143,6 +164,8 @@
     {
       "id": 16000010,
       "name": "EL PRIMO",
+      "class": "Heavyweight",
+      "description": "El Primo throws a flurry of punches at his enemies. His Super is a leaping elbow drop that deals damage to all caught underneath!",
       "starPowers": [
         {
           "id": 23000086,
@@ -157,6 +180,8 @@
     {
       "id": 16000011,
       "name": "MORTIS",
+      "class": "Dashing Assassin",
+      "description": "Mortis dashes forward with each swing of his shovel. As his Super attack, he sends a cloud of bats to damage enemies and heal himself!",
       "starPowers": [
         {
           "id": 23000087,
@@ -171,6 +196,8 @@
     {
       "id": 16000012,
       "name": "CROW",
+      "class": "Toxic Assassin",
+      "description": "Crow fires a trio of poisoned daggers. As a Super move he leaps, firing daggers both on jump and on landing!",
       "starPowers": [
         {
           "id": 23000088,
@@ -185,6 +212,8 @@
     {
       "id": 16000013,
       "name": "POCO",
+      "class": "Support",
+      "description": "Poco fires damaging sound waves at enemies. His Super can heal both Poco himself and his teammates!",
       "starPowers": [
         {
           "id": 23000089,
@@ -199,6 +228,8 @@
     {
       "id": 16000014,
       "name": "BO",
+      "class": "Fighter",
+      "description": "Bo fires three explosive arrows toward his targets. His Super ability places a trio of hidden, explosive mines on the ground!",
       "starPowers": [
         {
           "id": 23000090,
@@ -213,6 +244,8 @@
     {
       "id": 16000015,
       "name": "PIPER",
+      "class": "Sharpshooter",
+      "description": "Piper's sniper shots do more damage the farther they travel. Her Super drops grenades at her feet, while Piper herself leaps away!",
       "starPowers": [
         {
           "id": 23000091,
@@ -227,6 +260,8 @@
     {
       "id": 16000016,
       "name": "PAM",
+      "class": "Support",
+      "description": "Pam shoots from the hip, peppering targets with shrapnel. Her Super is a healing turret that restores her and teammates' health!",
       "starPowers": [
         {
           "id": 23000092,
@@ -241,6 +276,8 @@
     {
       "id": 16000017,
       "name": "TARA",
+      "class": "Fighter",
+      "description": "Tara's triple tarot card attack pierces through enemies. Her Super is a black hole that sucks in all nearby enemies, causing damage!",
       "starPowers": [
         {
           "id": 23000093,
@@ -255,6 +292,8 @@
     {
       "id": 16000018,
       "name": "DARRYL",
+      "class": "Heavyweight",
+      "description": "Darryl has a powerful double-shotgun attack. His Super move is a reckless roll inside his bouncy barrel!",
       "starPowers": [
         {
           "id": 23000094,
@@ -269,6 +308,8 @@
     {
       "id": 16000019,
       "name": "PENNY",
+      "class": "Sharpshooter",
+      "description": "Penny shoots bags of coins, damaging the target and anyone standing behind. Her Super is a mortar-style cannon turret!",
       "starPowers": [
         {
           "id": 23000099,
@@ -283,6 +324,8 @@
     {
       "id": 16000020,
       "name": "FRANK",
+      "class": "Heavyweight",
+      "description": "Frank swings his hammer at enemies, sending a shockwave. His Super is an especially powerful blow that stuns enemies!",
       "starPowers": [
         {
           "id": 23000104,
@@ -297,6 +340,8 @@
     {
       "id": 16000021,
       "name": "GENE",
+      "class": "Support",
+      "description": "Gene uses his magic lamp to shoot a splitting projectile. His super is a magical hand that grabs and pulls enemies close!",
       "starPowers": [
         {
           "id": 23000109,
@@ -311,6 +356,8 @@
     {
       "id": 16000022,
       "name": "TICK",
+      "class": "Thrower",
+      "description": "Tick is a metal ball of barely controlled excitement and energy - explosive energy! He throws mines, and his Super makes his head detach, seek a target and explode.",
       "starPowers": [
         {
           "id": 23000114,
@@ -325,6 +372,8 @@
     {
       "id": 16000023,
       "name": "LEON",
+      "class": "Stealthy Assassin",
+      "description": "Leon shoots a quick salvo of blades at his target. His Super trick is a smoke bomb that makes him invisible for a little while!",
       "starPowers": [
         {
           "id": 23000119,
@@ -339,6 +388,8 @@
     {
       "id": 16000024,
       "name": "ROSA",
+      "class": "Heavyweight",
+      "description": "This boxing botanist will plant her feet and go toe to toe! Her Super gives her tough, vegan protective gear.",
       "starPowers": [
         {
           "id": 23000124,
@@ -353,6 +404,8 @@
     {
       "id": 16000025,
       "name": "CARL",
+      "class": "Fighter",
+      "description": "Carl throws his Pickaxe like a boomerang. His Super is a crazy cart spin that clobbers anyone around him.",
       "starPowers": [
         {
           "id": 23000129,
@@ -367,6 +420,8 @@
     {
       "id": 16000026,
       "name": "BIBI",
+      "class": "Batter",
+      "description": "Batter up! Bibi's got a sweet swing that can knock back enemies when her Home Run bar is charged. Her Super is a bouncing ball of gum that deals damage.",
       "starPowers": [
         {
           "id": 23000134,
@@ -381,6 +436,8 @@
     {
       "id": 16000027,
       "name": "8-BIT",
+      "class": "Sharpshooter",
+      "description": "8-Bit lumbers along like an arcade cabinet on legs. He shoots Blaster Beams and his Super boosts friendlies' damage!",
       "starPowers": [
         {
           "id": 23000168,
@@ -395,6 +452,8 @@
     {
       "id": 16000028,
       "name": "SANDY",
+      "class": "Support",
+      "description": "Sandy is a sleep-deprived Brawler with powerful control over sand: casting sharp pebbles at enemies, and summoning a sandstorm to hide teammates.",
       "starPowers": [
         {
           "id": 23000186,
@@ -409,6 +468,8 @@
     {
       "id": 16000029,
       "name": "BEA",
+      "class": "Sharpshooter",
+      "description": "Bea loves bugs and hugs. She shoots her mechanical drones at range, and her Super sends forth an angry army of swarming bees!",
       "starPowers": [
         {
           "id": 23000192,
@@ -423,6 +484,8 @@
     {
       "id": 16000030,
       "name": "EMZ",
+      "class": "Fighter",
+      "description": "Emz attacks with blasts of hair spray that deal damage over time, and slows down opponents with her Super.",
       "starPowers": [
         {
           "id": 23000198,
@@ -437,6 +500,8 @@
     {
       "id": 16000031,
       "name": "MR. P",
+      "class": "Sharpshooter",
+      "description": "Mr. P is a disgruntled luggage handler who angrily hurls suitcases at opponents. His Super calls robo-porters to help him.",
       "starPowers": [
         {
           "id": 23000204,
@@ -451,6 +516,8 @@
     {
       "id": 16000032,
       "name": "MAX",
+      "class": "Support",
+      "description": "Max goes fast! Her attack is a fast-firing blaster. Her Super speeds up her and allies!",
       "starPowers": [
         {
           "id": 23000210,
@@ -465,6 +532,8 @@
     {
       "id": 16000034,
       "name": "JACKY",
+      "class": "Heavyweight",
+      "description": "Jacky works her Jackhammer to shake up the ground and nearby enemies. Her Super pulls in nearby foes, leaving them in the dust!",
       "starPowers": [
         {
           "id": 23000222,
@@ -479,6 +548,8 @@
     {
       "id": 16000037,
       "name": "SPROUT",
+      "class": "Support",
+      "description": "Sprout was built to plant life, launching bouncy Seed Bombs with reckless love. Its Super creates a blant-based obstacle!",
       "starPowers": [
         {
           "id": 23000240,
