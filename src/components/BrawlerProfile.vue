@@ -1,12 +1,28 @@
 <template lang="pug">
-  div Brawler Profile for {{ brawler.name }}
+  div
+    template(v-if='isLoading')
+      | Loading ...
+    template(v-else)
+      h6 Brawler: {{ brawler.name }}
 </template>
 
 <script>
 export default {
   name: 'BrawlerProfile',
-  props: {
-    brawler: Object
+  data() {
+    return {
+      isLoading: true,
+      brawler: null
+    }
+  },
+  created() {
+    const brawlerName = this.$route.params.name;
+    const getBrawlerData = () => import(`../../public/data/${brawlerName}.json`);
+
+    getBrawlerData().then((data) => {
+      this.isLoading = false;
+      this.brawler = data;
+    })
   }
 }
 </script>

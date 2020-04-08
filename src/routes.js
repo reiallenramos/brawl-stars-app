@@ -11,10 +11,9 @@ const routes = [
     children: [
       { path: '', component: BrawlersIndex },
       {
-        path: ':id',
+        path: ':name',
         component: BrawlerProfile,
-        name: 'brawlerProfile',
-        props: true
+        name: 'brawlerProfile'
       }
     ]
   },

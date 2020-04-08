@@ -1,5 +1,5 @@
 <template lang="pug">
-  router-link(:to="{ name: 'brawlerProfile', params: { id: record.name, brawler: record } } ")
+  router-link(:to="{ name: 'brawlerProfile', params: { name: record.name } } ")
     .card
       .card__media__wrapper
         .overlay-text
