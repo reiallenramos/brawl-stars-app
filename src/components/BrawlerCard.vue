@@ -1,20 +1,20 @@
 <template lang="pug">
-  router-link(:to="{ name: 'brawlerProfile', params: { name: record.name } } ")
-    .card
+  .card
+    router-link(:to="{ name: 'brawlerProfile', params: { name: record.name } } ")
       .card__media__wrapper
         .overlay-text
           h4.card__title {{ record.name }}
           .card__subtitle {{ record.class }}
         img.card__media__img(v-bind:src="getImgUrl(record.name)")
-      template(v-if="record.description")
-        h6.card__content {{ record.description }}
-      template(v-else)
-        h6.card__content Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
-      .card__footer.star-powers-group
-        template(v-for="(starPower, index) in record.starPowers")
-          .star-power-container(v-bind:class="[index == record.starPowers.length - 1 ? 'no-border': '']")
-            .star-power-img
-              img.internal-img(:src="getStarPowerUrl(record.name, kebabCase(starPower.name))")
+    template(v-if="record.description")
+      h6.card__content {{ record.description }}
+    template(v-else)
+      h6.card__content Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+    .card__footer.star-powers-group
+      template(v-for="(starPower, index) in record.starPowers")
+        .star-power-container(v-bind:class="[index == record.starPowers.length - 1 ? 'no-border': '']")
+          .star-power-img
+            img.internal-img(:src="getStarPowerUrl(record.name, kebabCase(starPower.name))")
 </template>
 
 <script>
@@ -46,6 +46,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .card {
   overflow: hidden;
   min-height: 100px;
@@ -54,13 +59,13 @@ export default {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-bottom: 40px;
 
-  >.card__media__wrapper {
+  .card__media__wrapper {
     height: 200px;
     overflow: hidden;
     position: relative;
     justify-content: flex-end;
 
-    >.card__media__img {
+    .card__media__img {
       z-index: 1;
       transform: scale(1.6);
       display: block;
@@ -72,11 +77,10 @@ export default {
       &:hover {
         transform: scale(1.7);
         opacity: 0.8;
-        cursor: pointer;
       }
     }
 
-    >.overlay-text {
+    .overlay-text {
       position: absolute;
       color: white;
       z-index: 100;
