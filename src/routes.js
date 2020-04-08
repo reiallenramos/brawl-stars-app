@@ -10,7 +10,12 @@ const routes = [
   { path: '/brawlers', component: Brawlers,
     children: [
       { path: '', component: BrawlersIndex },
-      { path: ':id', component: BrawlerProfile }
+      {
+        path: ':id',
+        component: BrawlerProfile,
+        name: 'brawlerProfile',
+        props: true
+      }
     ]
   },
   { path: '/players', component: Players },

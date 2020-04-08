@@ -1,19 +1,20 @@
 <template lang="pug">
-  .card
-    .card__media__wrapper
-      .overlay-text
-        h4.card__title {{ record.name }}
-        .card__subtitle {{ record.class }}
-      img.card__media__img(v-bind:src="getImgUrl(record.name)")
-    template(v-if="record.description")
-      h6.card__content {{ record.description }}
-    template(v-else)
-      h6.card__content Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
-    .card__footer.star-powers-group
-      template(v-for="(starPower, index) in record.starPowers")
-        .star-power-container(v-bind:class="[index == record.starPowers.length - 1 ? 'no-border': '']")
-          .star-power-img
-            img.internal-img(:src="getStarPowerUrl(record.name, kebabCase(starPower.name))")
+  router-link(:to="{ name: 'brawlerProfile', params: { id: record.name, brawler: record } } ")
+    .card
+      .card__media__wrapper
+        .overlay-text
+          h4.card__title {{ record.name }}
+          .card__subtitle {{ record.class }}
+        img.card__media__img(v-bind:src="getImgUrl(record.name)")
+      template(v-if="record.description")
+        h6.card__content {{ record.description }}
+      template(v-else)
+        h6.card__content Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+      .card__footer.star-powers-group
+        template(v-for="(starPower, index) in record.starPowers")
+          .star-power-container(v-bind:class="[index == record.starPowers.length - 1 ? 'no-border': '']")
+            .star-power-img
+              img.internal-img(:src="getStarPowerUrl(record.name, kebabCase(starPower.name))")
 </template>
 
 <script>
