@@ -19,13 +19,6 @@
 <script>
 export default {
   name: 'BrawlerCard',
-  data() {
-    return {
-      rap: {
-        color: 'red',
-      }
-    }
-  },
   props: {
     record: Object
   },
@@ -37,14 +30,11 @@ export default {
         return require(`../../public/images/brawl_stars_icon.jpg`);
       }
     },
-    getStarPowerBaseUrl() {
-      return require(`../../public/images/star_power.png`);
-    },
     getStarPowerUrl(brawler, starPowerName) {
       try {
         return require(`../../public/images/${brawler}/${starPowerName}.png`);
       } catch(e) {
-        false;
+        return false;
       }
     },
     kebabCase(str) {
