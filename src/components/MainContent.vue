@@ -5,6 +5,6 @@
 
 <style scoped>
 .content {
-  margin-top: 70px;
+  margin-top: 66px;
 }
 </style>
