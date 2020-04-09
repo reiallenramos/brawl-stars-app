@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  main-content-section
     .button(v-on:click="sort('name')") Sort by Name
     .button(v-on:click="sort('class')") Sort by Class
     .grid

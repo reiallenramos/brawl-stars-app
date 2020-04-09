@@ -3,7 +3,7 @@
     slot
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 .main-content__section {
   border-top: 1px solid #eee;
   padding: 4rem 0;
