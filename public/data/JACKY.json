@@ -1,0 +1,16 @@
+{
+  "id": 16000034,
+  "name": "JACKY",
+  "class": "Heavyweight",
+  "description": "Jacky works her Jackhammer to shake up the ground and nearby enemies. Her Super pulls in nearby foes, leaving them in the dust!",
+  "starPowers": [
+    {
+      "id": 23000222,
+      "name": "COUNTER CRUSH"
+    },
+    {
+      "id": 23000223,
+      "name": "HARDY HARD HAT"
+    }
+  ]
+}

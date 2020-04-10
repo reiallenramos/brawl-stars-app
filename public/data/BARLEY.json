@@ -1,0 +1,17 @@
+{
+  "id": 16000006,
+  "name": "BARLEY",
+  "class": "Thrower",
+  "description": "Barley attacks by lobbing bottles at enemies, doing splash damage. His Super is a huge barrage of burning bottles!",
+  "rarity": "Rare",
+  "starPowers": [
+    {
+      "id": 23000082,
+      "name": "Medical Use"
+    },
+    {
+      "id": 23000158,
+      "name": "Extra Noxious"
+    }
+  ]
+}

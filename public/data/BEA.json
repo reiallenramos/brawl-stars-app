@@ -1,0 +1,16 @@
+{
+  "id": 16000029,
+  "name": "BEA",
+  "class": "Sharpshooter",
+  "description": "Bea loves bugs and hugs. She shoots her mechanical drones at range, and her Super sends forth an angry army of swarming bees!",
+  "starPowers": [
+    {
+      "id": 23000192,
+      "name": "Insta Beeload"
+    },
+    {
+      "id": 23000193,
+      "name": "Honey Coat"
+    }
+  ]
+}

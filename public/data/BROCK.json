@@ -1,0 +1,16 @@
+{
+  "id": 16000003,
+  "name": "BROCK",
+  "class": "Sharpshooter",
+  "description": "Brock fires a long-range, explosive rocket at enemies. His Super is a ballistic rocket barrage that destroys cover!",
+  "starPowers": [
+    {
+      "id": 23000079,
+      "name": "Incendiary"
+    },
+    {
+      "id": 23000150,
+      "name": "Rocket No. Four"
+    }
+  ]
+}

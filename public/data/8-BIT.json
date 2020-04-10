@@ -1,0 +1,17 @@
+{
+  "id": 16000027,
+  "name": "8-BIT",
+  "class": "Sharpshooter",
+  "description": "8-Bit lumbers along like an arcade cabinet on legs. He shoots Blaster Beams and his Super boosts friendlies' damage!",
+  "rarity": "Trophy Road",
+  "starPowers": [
+    {
+      "id": 23000168,
+      "name": "Boosted Booster"
+    },
+    {
+      "id": 23000181,
+      "name": "Extra Life"
+    }
+  ]
+}

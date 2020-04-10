@@ -1,0 +1,16 @@
+{
+  "id": 16000005,
+  "name": "SPIKE",
+  "class": "Sharpshooter",
+  "description": "Spike throws cactus grenades that send needles flying, and a show-stopping Super: a field of cactus spines that slows down and damages enemies!",
+  "starPowers": [
+    {
+      "id": 23000081,
+      "name": "Fertilize"
+    },
+    {
+      "id": 23000151,
+      "name": "Curveball"
+    }
+  ]
+}

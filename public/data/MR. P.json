@@ -1,0 +1,16 @@
+{
+  "id": 16000031,
+  "name": "MR. P",
+  "class": "Sharpshooter",
+  "description": "Mr. P is a disgruntled luggage handler who angrily hurls suitcases at opponents. His Super calls robo-porters to help him.",
+  "starPowers": [
+    {
+      "id": 23000204,
+      "name": "Handle With Care"
+    },
+    {
+      "id": 23000205,
+      "name": "Tin Can"
+    }
+  ]
+}

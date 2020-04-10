@@ -1,0 +1,16 @@
+{
+  "id": 16000002,
+  "name": "BULL",
+  "class": "Heavyweight",
+  "description": "Bull deals massive damage up close with his shotgun. For his Super move, he charges through barriers and knocks back enemies!",
+  "starPowers": [
+    {
+      "id": 23000078,
+      "name": "Berserker"
+    },
+    {
+      "id": 23000137,
+      "name": "Tough Guy"
+    }
+  ]
+}

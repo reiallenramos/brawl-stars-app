@@ -1,0 +1,17 @@
+{
+  "id": 16000000,
+  "name": "SHELLY",
+  "class": "Fighter",
+  "description": "Shelly's spread-fire shotgun blasts the other team with buckshot. Her Super destroys cover and keeps her opponents at a distance!",
+  "rarity": "Trophy Road",
+  "starPowers": [
+    {
+      "id": 23000076,
+      "name": "Shell Shock"
+    },
+    {
+      "id": 23000135,
+      "name": "Band-Aid"
+    }
+  ]
+}

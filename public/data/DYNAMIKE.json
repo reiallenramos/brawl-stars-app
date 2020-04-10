@@ -1,0 +1,16 @@
+{
+  "id": 16000009,
+  "name": "DYNAMIKE",
+  "class": "Thrower",
+  "description": "Dynamike lobs two explosive sticks of dynamite. His Super attack is a whole barrel full of dynamite that blows up cover!",
+  "starPowers": [
+    {
+      "id": 23000085,
+      "name": "Dyna-Jump"
+    },
+    {
+      "id": 23000155,
+      "name": "Demolition"
+    }
+  ]
+}

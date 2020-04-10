@@ -1,0 +1,16 @@
+{
+  "id": 16000011,
+  "name": "MORTIS",
+  "class": "Dashing Assassin",
+  "description": "Mortis dashes forward with each swing of his shovel. As his Super attack, he sends a cloud of bats to damage enemies and heal himself!",
+  "starPowers": [
+    {
+      "id": 23000087,
+      "name": "Creepy Harvest"
+    },
+    {
+      "id": 23000154,
+      "name": "Coiled Snake"
+    }
+  ]
+}

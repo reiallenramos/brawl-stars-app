@@ -1,0 +1,16 @@
+{
+  "id": 16000013,
+  "name": "POCO",
+  "class": "Support",
+  "description": "Poco fires damaging sound waves at enemies. His Super can heal both Poco himself and his teammates!",
+  "starPowers": [
+    {
+      "id": 23000089,
+      "name": "Da Capo!"
+    },
+    {
+      "id": 23000144,
+      "name": "Screeching Solo"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 16000001,
+  "name": "COLT",
+  "class": "Sharpshooter",
+  "description": "Colt fires an accurate burst of bullets from his dual revolvers. His Super shreds cover and extends the bullet barrage!",
+  "starPowers": [
+    {
+      "id": 23000077,
+      "name": "Slick Boots"
+    },
+    {
+      "id": 23000138,
+      "name": "Magnum Special"
+    }
+  ]
+}

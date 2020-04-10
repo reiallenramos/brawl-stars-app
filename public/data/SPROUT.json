@@ -1,0 +1,12 @@
+{
+  "id": 16000037,
+  "name": "SPROUT",
+  "class": "Support",
+  "description": "Sprout was built to plant life, launching bouncy Seed Bombs with reckless love. Its Super creates a blant-based obstacle!",
+  "starPowers": [
+    {
+      "id": 23000240,
+      "name": "OVERGROWTH"
+    }
+  ]
+}

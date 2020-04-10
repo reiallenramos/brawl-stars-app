@@ -1,0 +1,16 @@
+{
+  "id": 16000021,
+  "name": "GENE",
+  "class": "Support",
+  "description": "Gene uses his magic lamp to shoot a splitting projectile. His super is a magical hand that grabs and pulls enemies close!",
+  "starPowers": [
+    {
+      "id": 23000109,
+      "name": "Magic Puffs"
+    },
+    {
+      "id": 23000159,
+      "name": "Spirit Slap"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 16000016,
+  "name": "PAM",
+  "class": "Support",
+  "description": "Pam shoots from the hip, peppering targets with shrapnel. Her Super is a healing turret that restores her and teammates' health!",
+  "starPowers": [
+    {
+      "id": 23000092,
+      "name": "Mama's Hug"
+    },
+    {
+      "id": 23000139,
+      "name": "Mama's Squeeze"
+    }
+  ]
+}

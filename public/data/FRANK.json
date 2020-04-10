@@ -1,0 +1,16 @@
+{
+  "id": 16000020,
+  "name": "FRANK",
+  "class": "Heavyweight",
+  "description": "Frank swings his hammer at enemies, sending a shockwave. His Super is an especially powerful blow that stuns enemies!",
+  "starPowers": [
+    {
+      "id": 23000104,
+      "name": "Power Grab"
+    },
+    {
+      "id": 23000153,
+      "name": "Sponge"
+    }
+  ]
+}

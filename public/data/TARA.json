@@ -1,0 +1,16 @@
+{
+  "id": 16000017,
+  "name": "TARA",
+  "class": "Fighter",
+  "description": "Tara's triple tarot card attack pierces through enemies. Her Super is a black hole that sucks in all nearby enemies, causing damage!",
+  "starPowers": [
+    {
+      "id": 23000093,
+      "name": "Black Portal"
+    },
+    {
+      "id": 23000160,
+      "name": "Healing Shade"
+    }
+  ]
+}

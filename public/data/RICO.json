@@ -1,0 +1,16 @@
+{
+  "id": 16000004,
+  "name": "RICO",
+  "class": "Sharpshooter",
+  "description": "Rico fires a burst of bullets that bounce off walls. His Super burst is a long barrage of bouncy bullets that pierce targets!",
+  "starPowers": [
+    {
+      "id": 23000080,
+      "name": "Super Bouncy"
+    },
+    {
+      "id": 23000156,
+      "name": "Robo Retreat"
+    }
+  ]
+}

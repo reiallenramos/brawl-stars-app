@@ -1,0 +1,16 @@
+{
+  "id": 16000026,
+  "name": "BIBI",
+  "class": "Batter",
+  "description": "Batter up! Bibi's got a sweet swing that can knock back enemies when her Home Run bar is charged. Her Super is a bouncing ball of gum that deals damage.",
+  "starPowers": [
+    {
+      "id": 23000134,
+      "name": "Home Run"
+    },
+    {
+      "id": 23000146,
+      "name": "Batting Stance"
+    }
+  ]
+}

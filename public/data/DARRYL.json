@@ -1,0 +1,16 @@
+{
+  "id": 16000018,
+  "name": "DARRYL",
+  "class": "Heavyweight",
+  "description": "Darryl has a powerful double-shotgun attack. His Super move is a reckless roll inside his bouncy barrel!",
+  "starPowers": [
+    {
+      "id": 23000094,
+      "name": "Steel Hoops"
+    },
+    {
+      "id": 23000157,
+      "name": "Rolling Reload"
+    }
+  ]
+}

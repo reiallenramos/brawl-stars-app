@@ -1,0 +1,16 @@
+{
+  "id": 16000015,
+  "name": "PIPER",
+  "class": "Sharpshooter",
+  "description": "Piper's sniper shots do more damage the farther they travel. Her Super drops grenades at her feet, while Piper herself leaps away!",
+  "starPowers": [
+    {
+      "id": 23000091,
+      "name": "Ambush"
+    },
+    {
+      "id": 23000152,
+      "name": "Snappy Sniping"
+    }
+  ]
+}

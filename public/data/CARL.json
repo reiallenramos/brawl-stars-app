@@ -1,0 +1,16 @@
+{
+  "id": 16000025,
+  "name": "CARL",
+  "class": "Fighter",
+  "description": "Carl throws his Pickaxe like a boomerang. His Super is a crazy cart spin that clobbers anyone around him.",
+  "starPowers": [
+    {
+      "id": 23000129,
+      "name": "Power Throw"
+    },
+    {
+      "id": 23000145,
+      "name": "Protective Pirouette"
+    }
+  ]
+}

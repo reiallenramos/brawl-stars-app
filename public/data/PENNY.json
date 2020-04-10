@@ -1,0 +1,16 @@
+{
+  "id": 16000019,
+  "name": "PENNY",
+  "class": "Sharpshooter",
+  "description": "Penny shoots bags of coins, damaging the target and anyone standing behind. Her Super is a mortar-style cannon turret!",
+  "starPowers": [
+    {
+      "id": 23000099,
+      "name": "Last Blast"
+    },
+    {
+      "id": 23000142,
+      "name": "Balls of Fire"
+    }
+  ]
+}

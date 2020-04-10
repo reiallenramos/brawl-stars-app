@@ -1,0 +1,16 @@
+{
+  "id": 16000014,
+  "name": "BO",
+  "class": "Fighter",
+  "description": "Bo fires three explosive arrows toward his targets. His Super ability places a trio of hidden, explosive mines on the ground!",
+  "starPowers": [
+    {
+      "id": 23000090,
+      "name": "Circling Eagle"
+    },
+    {
+      "id": 23000148,
+      "name": "Snare a Bear"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 16000030,
+  "name": "EMZ",
+  "class": "Fighter",
+  "description": "Emz attacks with blasts of hair spray that deal damage over time, and slows down opponents with her Super.",
+  "starPowers": [
+    {
+      "id": 23000198,
+      "name": "Bad Karma"
+    },
+    {
+      "id": 23000199,
+      "name": "Hype"
+    }
+  ]
+}

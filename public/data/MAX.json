@@ -1,0 +1,16 @@
+{
+  "id": 16000032,
+  "name": "MAX",
+  "class": "Support",
+  "description": "Max goes fast! Her attack is a fast-firing blaster. Her Super speeds up her and allies!",
+  "starPowers": [
+    {
+      "id": 23000210,
+      "name": "Super Charged"
+    },
+    {
+      "id": 23000211,
+      "name": "Run n' Gun"
+    }
+  ]
+}

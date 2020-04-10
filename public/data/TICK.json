@@ -1,0 +1,16 @@
+{
+  "id": 16000022,
+  "name": "TICK",
+  "class": "Thrower",
+  "description": "Tick is a metal ball of barely controlled excitement and energy - explosive energy! He throws mines, and his Super makes his head detach, seek a target and explode.",
+  "starPowers": [
+    {
+      "id": 23000114,
+      "name": "Well Oiled"
+    },
+    {
+      "id": 23000161,
+      "name": "Automa-Tick Reload"
+    }
+  ]
+}

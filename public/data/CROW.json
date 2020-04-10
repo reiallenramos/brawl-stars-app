@@ -1,0 +1,17 @@
+{
+  "id": 16000012,
+  "name": "CROW",
+  "class": "Toxic Assassin",
+  "description": "Crow fires a trio of poisoned daggers. As a Super move he leaps, firing daggers both on jump and on landing!",
+  "rarity": "Legendary",
+  "starPowers": [
+    {
+      "id": 23000088,
+      "name": "Extra Toxic"
+    },
+    {
+      "id": 23000143,
+      "name": "Carrion Crow"
+    }
+  ]
+}
