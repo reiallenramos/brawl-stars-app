@@ -5,6 +5,7 @@
     template(v-else)
       .grid
         profile-header(:brawlerName="brawler.name" :brawlerClass="brawler.class" :brawlerRarity="brawler.rarity")
+        profile-star-powers(:brawlerName="brawler.name" :starPowers="brawler.starPowers")
         .row
           .eight.columns.profile-section
             | Lorem Ipsum
@@ -27,12 +28,14 @@
 <script>
 import MainContentSection from '../components/MainContentSection.vue'
 import ProfileHeader from '../components/BrawlerProfile/ProfileHeader.vue'
+import ProfileStarPowers from '../components/BrawlerProfile/ProfileStarPowers.vue'
 
 export default {
   name: 'BrawlerProfile',
   components: {
     MainContentSection,
-    ProfileHeader
+    ProfileHeader,
+    ProfileStarPowers
   },
   data() {
     return {

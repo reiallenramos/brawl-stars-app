@@ -143,6 +143,8 @@ a {
       line-height: 2.75;
       text-align: center;
       background-position: center;
+      vertical-align: middle;
+      display: inline-block;
 
       >.internal-img {
         width: 20px;
