@@ -3,10 +3,16 @@
   "name": "SPROUT",
   "class": "Support",
   "description": "Sprout was built to plant life, launching bouncy Seed Bombs with reckless love. Its Super creates a blant-based obstacle!",
+  "rarity": "Mythic",
   "starPowers": [
     {
       "id": 23000240,
       "name": "OVERGROWTH"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "2",
+    "utility": "4"
+  }
 }

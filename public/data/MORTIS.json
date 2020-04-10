@@ -3,6 +3,7 @@
   "name": "MORTIS",
   "class": "Dashing Assassin",
   "description": "Mortis dashes forward with each swing of his shovel. As his Super attack, he sends a cloud of bats to damage enemies and heal himself!",
+  "rarity": "Mythic",
   "starPowers": [
     {
       "id": 23000087,
@@ -12,5 +13,10 @@
       "id": 23000154,
       "name": "Coiled Snake"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "3",
+    "utility": "4"
+  }
 }

@@ -3,6 +3,7 @@
   "name": "JESSIE",
   "class": "Fighter",
   "description": "Jessie's Shock Rifle shoots energy orbs that bounce between enemies. Her Super deploys a cute but deadly gun turret!",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000083,
@@ -12,5 +13,10 @@
       "id": 23000149,
       "name": "Shocky"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "2",
+    "utility": "4"
+  }
 }

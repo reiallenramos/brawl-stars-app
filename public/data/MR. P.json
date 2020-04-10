@@ -3,6 +3,7 @@
   "name": "MR. P",
   "class": "Sharpshooter",
   "description": "Mr. P is a disgruntled luggage handler who angrily hurls suitcases at opponents. His Super calls robo-porters to help him.",
+  "rarity": "Mythic",
   "starPowers": [
     {
       "id": 23000204,
@@ -12,5 +13,10 @@
       "id": 23000205,
       "name": "Tin Can"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "2",
+    "utility": "4"
+  }
 }

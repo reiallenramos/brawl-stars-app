@@ -3,6 +3,7 @@
   "name": "BULL",
   "class": "Heavyweight",
   "description": "Bull deals massive damage up close with his shotgun. For his Super move, he charges through barriers and knocks back enemies!",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000078,
@@ -12,5 +13,10 @@
       "id": 23000137,
       "name": "Tough Guy"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "4",
+    "utility": "2"
+  }
 }

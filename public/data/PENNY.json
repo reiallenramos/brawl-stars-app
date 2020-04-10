@@ -3,6 +3,7 @@
   "name": "PENNY",
   "class": "Sharpshooter",
   "description": "Penny shoots bags of coins, damaging the target and anyone standing behind. Her Super is a mortar-style cannon turret!",
+  "rarity": "Super Rare",
   "starPowers": [
     {
       "id": 23000099,
@@ -12,5 +13,10 @@
       "id": 23000142,
       "name": "Balls of Fire"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "2",
+    "utility": "4"
+  }
 }

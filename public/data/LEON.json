@@ -3,6 +3,7 @@
   "name": "LEON",
   "class": "Stealthy Assassin",
   "description": "Leon shoots a quick salvo of blades at his target. His Super trick is a smoke bomb that makes him invisible for a little while!",
+  "rarity": "Legendary",
   "starPowers": [
     {
       "id": 23000119,
@@ -12,5 +13,10 @@
       "id": 23000141,
       "name": "Invisiheal"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "4",
+    "defense": "2",
+    "utility": "3"
+  }
 }

@@ -3,6 +3,7 @@
   "name": "NITA",
   "class": "Fighter",
   "description": "Nita strikes her enemies with a thunderous shockwave. Her Super summons a massive bear to fight by her side!",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000084,
@@ -12,5 +13,10 @@
       "id": 23000136,
       "name": "Hyper Bear"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "4",
+    "utility": "2"
+  }
 }

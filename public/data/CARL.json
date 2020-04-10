@@ -3,6 +3,7 @@
   "name": "CARL",
   "class": "Fighter",
   "description": "Carl throws his Pickaxe like a boomerang. His Super is a crazy cart spin that clobbers anyone around him.",
+  "rarity": "Super Rare",
   "starPowers": [
     {
       "id": 23000129,
@@ -12,5 +13,10 @@
       "id": 23000145,
       "name": "Protective Pirouette"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "3",
+    "utility": "3"
+  }
 }

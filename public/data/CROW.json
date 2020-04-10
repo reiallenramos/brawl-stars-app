@@ -13,5 +13,10 @@
       "id": 23000143,
       "name": "Carrion Crow"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "1",
+    "utility": "3"
+  }
 }

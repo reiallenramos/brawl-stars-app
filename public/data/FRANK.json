@@ -3,6 +3,7 @@
   "name": "FRANK",
   "class": "Heavyweight",
   "description": "Frank swings his hammer at enemies, sending a shockwave. His Super is an especially powerful blow that stuns enemies!",
+  "rarity": "Epic",
   "starPowers": [
     {
       "id": 23000104,
@@ -12,5 +13,10 @@
       "id": 23000153,
       "name": "Sponge"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "5",
+    "utility": "2"
+  }
 }

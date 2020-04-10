@@ -3,6 +3,7 @@
   "name": "RICO",
   "class": "Sharpshooter",
   "description": "Rico fires a burst of bullets that bounce off walls. His Super burst is a long barrage of bouncy bullets that pierce targets!",
+  "rarity": "Super Rare",
   "starPowers": [
     {
       "id": 23000080,
@@ -12,5 +13,10 @@
       "id": 23000156,
       "name": "Robo Retreat"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "2",
+    "utility": "2"
+  }
 }

@@ -3,6 +3,7 @@
   "name": "SANDY",
   "class": "Support",
   "description": "Sandy is a sleep-deprived Brawler with powerful control over sand: casting sharp pebbles at enemies, and summoning a sandstorm to hide teammates.",
+  "rarity": "Legendary",
   "starPowers": [
     {
       "id": 23000186,
@@ -12,5 +13,10 @@
       "id": 23000187,
       "name": "Healing Winds"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "2",
+    "utility": "5"
+  }
 }

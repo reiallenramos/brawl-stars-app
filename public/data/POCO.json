@@ -3,6 +3,7 @@
   "name": "POCO",
   "class": "Support",
   "description": "Poco fires damaging sound waves at enemies. His Super can heal both Poco himself and his teammates!",
+  "rarity": "Rare",
   "starPowers": [
     {
       "id": 23000089,
@@ -12,5 +13,10 @@
       "id": 23000144,
       "name": "Screeching Solo"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "3",
+    "utility": "4"
+  }
 }

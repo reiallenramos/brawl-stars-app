@@ -3,6 +3,7 @@
   "name": "ROSA",
   "class": "Heavyweight",
   "description": "This boxing botanist will plant her feet and go toe to toe! Her Super gives her tough, vegan protective gear.",
+  "rarity": "Rare",
   "starPowers": [
     {
       "id": 23000124,
@@ -12,5 +13,10 @@
       "id": 23000147,
       "name": "Thorny Gloves"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "5",
+    "utility": "1"
+  }
 }

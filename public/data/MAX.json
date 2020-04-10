@@ -3,6 +3,7 @@
   "name": "MAX",
   "class": "Support",
   "description": "Max goes fast! Her attack is a fast-firing blaster. Her Super speeds up her and allies!",
+  "rarity": "Mythic",
   "starPowers": [
     {
       "id": 23000210,
@@ -12,5 +13,10 @@
       "id": 23000211,
       "name": "Run n' Gun"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "2",
+    "utility": "5"
+  }
 }

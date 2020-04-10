@@ -13,5 +13,10 @@
       "id": 23000158,
       "name": "Extra Noxious"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "2",
+    "utility": "2"
+  }
 }

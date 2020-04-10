@@ -3,6 +3,7 @@
   "name": "JACKY",
   "class": "Heavyweight",
   "description": "Jacky works her Jackhammer to shake up the ground and nearby enemies. Her Super pulls in nearby foes, leaving them in the dust!",
+  "rarity": "Super Rare",
   "starPowers": [
     {
       "id": 23000222,
@@ -12,5 +13,10 @@
       "id": 23000223,
       "name": "HARDY HARD HAT"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "5",
+    "utility": "2"
+  }
 }

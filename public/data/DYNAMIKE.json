@@ -3,6 +3,7 @@
   "name": "DYNAMIKE",
   "class": "Thrower",
   "description": "Dynamike lobs two explosive sticks of dynamite. His Super attack is a whole barrel full of dynamite that blows up cover!",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000085,
@@ -12,5 +13,10 @@
       "id": 23000155,
       "name": "Demolition"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "2",
+    "utility": "2"
+  }
 }

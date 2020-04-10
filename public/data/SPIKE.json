@@ -3,6 +3,7 @@
   "name": "SPIKE",
   "class": "Sharpshooter",
   "description": "Spike throws cactus grenades that send needles flying, and a show-stopping Super: a field of cactus spines that slows down and damages enemies!",
+  "rarity": "Legendary",
   "starPowers": [
     {
       "id": 23000081,
@@ -12,5 +13,10 @@
       "id": 23000151,
       "name": "Curveball"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "4",
+    "defense": "2",
+    "utility": "3"
+  }
 }

@@ -3,6 +3,7 @@
   "name": "BEA",
   "class": "Sharpshooter",
   "description": "Bea loves bugs and hugs. She shoots her mechanical drones at range, and her Super sends forth an angry army of swarming bees!",
+  "rarity": "Epic",
   "starPowers": [
     {
       "id": 23000192,
@@ -12,5 +13,10 @@
       "id": 23000193,
       "name": "Honey Coat"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "2",
+    "utility": "2"
+  }
 }

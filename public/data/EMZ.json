@@ -3,6 +3,7 @@
   "name": "EMZ",
   "class": "Fighter",
   "description": "Emz attacks with blasts of hair spray that deal damage over time, and slows down opponents with her Super.",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000198,
@@ -12,5 +13,10 @@
       "id": 23000199,
       "name": "Hype"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "2",
+    "utility": "3"
+  }
 }

@@ -13,5 +13,10 @@
       "id": 23000135,
       "name": "Band-Aid"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "4",
+    "defense": "3",
+    "utility": "2"
+  }
 }

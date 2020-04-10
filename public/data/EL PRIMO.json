@@ -3,6 +3,7 @@
   "name": "EL PRIMO",
   "class": "Heavyweight",
   "description": "El Primo throws a flurry of punches at his enemies. His Super is a leaping elbow drop that deals damage to all caught underneath!",
+  "rarity": "Rare",
   "starPowers": [
     {
       "id": 23000086,
@@ -12,5 +13,10 @@
       "id": 23000140,
       "name": "Meteor Rush"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "5",
+    "utility": "2"
+  }
 }

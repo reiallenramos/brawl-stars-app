@@ -3,6 +3,7 @@
   "name": "COLT",
   "class": "Sharpshooter",
   "description": "Colt fires an accurate burst of bullets from his dual revolvers. His Super shreds cover and extends the bullet barrage!",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000077,
@@ -12,5 +13,10 @@
       "id": 23000138,
       "name": "Magnum Special"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "2",
+    "utility": "2"
+  }
 }

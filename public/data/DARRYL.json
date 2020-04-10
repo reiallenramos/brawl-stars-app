@@ -3,6 +3,7 @@
   "name": "DARRYL",
   "class": "Heavyweight",
   "description": "Darryl has a powerful double-shotgun attack. His Super move is a reckless roll inside his bouncy barrel!",
+  "rarity": "Super Rare",
   "starPowers": [
     {
       "id": 23000094,
@@ -12,5 +13,10 @@
       "id": 23000157,
       "name": "Rolling Reload"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "3",
+    "defense": "4",
+    "utility": "3"
+  }
 }

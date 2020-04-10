@@ -3,6 +3,7 @@
   "name": "TICK",
   "class": "Thrower",
   "description": "Tick is a metal ball of barely controlled excitement and energy - explosive energy! He throws mines, and his Super makes his head detach, seek a target and explode.",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000114,
@@ -12,5 +13,10 @@
       "id": 23000161,
       "name": "Automa-Tick Reload"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "1",
+    "utility": "3"
+  }
 }

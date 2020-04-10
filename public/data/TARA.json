@@ -3,6 +3,7 @@
   "name": "TARA",
   "class": "Fighter",
   "description": "Tara's triple tarot card attack pierces through enemies. Her Super is a black hole that sucks in all nearby enemies, causing damage!",
+  "rarity": "Mythic",
   "starPowers": [
     {
       "id": 23000093,
@@ -12,5 +13,10 @@
       "id": 23000160,
       "name": "Healing Shade"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "2",
+    "utility": "5"
+  }
 }

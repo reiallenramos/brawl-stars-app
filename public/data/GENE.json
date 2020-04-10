@@ -3,6 +3,7 @@
   "name": "GENE",
   "class": "Support",
   "description": "Gene uses his magic lamp to shoot a splitting projectile. His super is a magical hand that grabs and pulls enemies close!",
+  "rarity": "Mythic",
   "starPowers": [
     {
       "id": 23000109,
@@ -12,5 +13,10 @@
       "id": 23000159,
       "name": "Spirit Slap"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "2",
+    "defense": "2",
+    "utility": "5"
+  }
 }

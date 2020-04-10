@@ -3,6 +3,7 @@
   "name": "BROCK",
   "class": "Sharpshooter",
   "description": "Brock fires a long-range, explosive rocket at enemies. His Super is a ballistic rocket barrage that destroys cover!",
+  "rarity": "Trophy Road",
   "starPowers": [
     {
       "id": 23000079,
@@ -12,5 +13,10 @@
       "id": 23000150,
       "name": "Rocket No. Four"
     }
-  ]
+  ],
+  "stats": {
+    "offense": "5",
+    "defense": "2",
+    "utility": "2"
+  }
 }
