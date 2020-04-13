@@ -38,13 +38,16 @@ export default {
     },
     addToChartDatesets(name) {
       let index = this.chartDatasets.map(b => { return b.label; }).indexOf(name);
-      let brawler = this.brawlers.filter(b => { return b.name == name; })[0];
+      const getBrawlerData = () => import(`../../public/data/${name}.json`);
 
       if(index != -1) { this.chartDatasets.splice(index, 1); }
-      this.chartDatasets.push({
-        label: brawler.name,
-        data: [brawler.stats.offense, brawler.stats.defense, brawler.stats.utility],
-        backgroundColor: this.getRandomColor()
+
+      getBrawlerData().then((brawler) => {
+        this.chartDatasets.push({
+          label: brawler.name,
+          data: [brawler.stats.offense, brawler.stats.defense, brawler.stats.utility],
+          backgroundColor: this.getRandomColor()
+        })
       })
     },
     removeFromChartDatasets(name) {
