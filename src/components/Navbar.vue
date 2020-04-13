@@ -7,7 +7,7 @@
         li.navbar-item
           router-link.navbar-link(to="/brawlers") Brawlers
         li.navbar-item
-          router-link.navbar-link(to="/players") Compare
+          router-link.navbar-link(to="/compare") Compare
         li.navbar-item
           router-link.navbar-link(to="/clans") Clans
 </template>

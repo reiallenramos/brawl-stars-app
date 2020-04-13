@@ -1,7 +1,7 @@
 import Home from './components/Home.vue'
 import Brawlers from './components/Brawlers.vue'
 import BrawlersIndex from './components/BrawlersIndex.vue'
-import Players from './components/Players.vue'
+import Compare from './components/Compare.vue'
 import Clans from './components/Clans.vue'
 import BrawlerProfile from './components/BrawlerProfile.vue'
 
@@ -17,7 +17,7 @@ const routes = [
       }
     ]
   },
-  { path: '/players', component: Players },
+  { path: '/compare', component: Compare },
   { path: '/clans', component: Clans },
 ];
 
