@@ -1,4 +1,3 @@
-import Home from './components/Home.vue'
 import Brawlers from './components/Brawlers.vue'
 import BrawlersIndex from './components/BrawlersIndex.vue'
 import Compare from './components/Compare.vue'
@@ -6,10 +5,13 @@ import Clans from './components/Clans.vue'
 import BrawlerProfile from './components/BrawlerProfile.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/brawlers', component: Brawlers,
+  { path: '/', component: Brawlers,
     children: [
-      { path: '', component: BrawlersIndex },
+      {
+        path: '',
+        component: BrawlersIndex,
+        name: 'brawlersIndex'
+      },
       {
         path: ':name',
         component: BrawlerProfile,
@@ -17,8 +19,16 @@ const routes = [
       }
     ]
   },
-  { path: '/compare', component: Compare },
-  { path: '/clans', component: Clans },
+  {
+    path: '/compare',
+    component: Compare,
+    name: 'compareHome'
+  },
+  {
+    path: '/clans',
+    component: Clans,
+    name: 'clansHome'
+  },
 ];
 
 export default routes;

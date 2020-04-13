@@ -2,14 +2,12 @@
   nav.navbar.sticky
     .container
       ul.navbar-list
-        //- li.navbar-item
-        //-   router-link.navbar-link(to="/") Home
         li.navbar-item
-          router-link.navbar-link(to="/brawlers") Brawlers
+          router-link.navbar-link(:to="{ name: 'brawlersIndex' }") Brawlers
         li.navbar-item
-          router-link.navbar-link(to="/compare") Compare
+          router-link.navbar-link(:to="{ name: 'compareHome' }") Compare
         li.navbar-item
-          router-link.navbar-link(to="/clans") Clans
+          router-link.navbar-link(:to="{ name: 'clansHome' }") Clans
 </template>
 
 <style lang="scss">
