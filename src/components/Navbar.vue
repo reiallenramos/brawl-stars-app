@@ -2,12 +2,12 @@
   nav.navbar.sticky
     .container
       ul.navbar-list
-        li.navbar-item
-          router-link.navbar-link(to="/") Home
+        //- li.navbar-item
+        //-   router-link.navbar-link(to="/") Home
         li.navbar-item
           router-link.navbar-link(to="/brawlers") Brawlers
         li.navbar-item
-          router-link.navbar-link(to="/players") Players
+          router-link.navbar-link(to="/players") Compare
         li.navbar-item
           router-link.navbar-link(to="/clans") Clans
 </template>

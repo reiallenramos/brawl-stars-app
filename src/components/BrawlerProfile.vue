@@ -9,7 +9,7 @@
             profile-header(:brawlerName="brawler.name" :brawlerClass="brawler.class" :brawlerRarity="brawler.rarity")
             profile-star-powers(:brawlerName="brawler.name" :starPowers="brawler.starPowers")
           .four.columns
-            radar-chart-container(:brawlerName="brawler.name" :offense="brawler.stats.offense" :defense="brawler.stats.defense" :utility="brawler.stats.utility")
+            radar-chart-container(:chartDatasets="chartDatasets")
         .row
           .twelve.columns.profile-section
             | Footer
@@ -32,7 +32,8 @@ export default {
   data() {
     return {
       isLoading: true,
-      brawler: null
+      brawler: null,
+      chartDatasets: []
     }
   },
   created() {
@@ -42,6 +43,12 @@ export default {
     getBrawlerData().then((data) => {
       this.isLoading = false;
       this.brawler = data;
+      this.chartDatasets = [
+        {
+          label: data.name,
+          data: [data.stats.offense, data.stats.defense, data.stats.utility]
+        }
+      ]
     })
   }
 }
