@@ -7,7 +7,8 @@
           .card__subtitle {{ record.class }}
         img.card__media__img(v-bind:src="getImgUrl(record.name)")
     template(v-if="record.description")
-      h6.card__content {{ record.description }}
+      .card__content
+        h6 {{ record.description }}
     template(v-else)
       h6.card__content Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
     .card__footer.star-powers-group
@@ -117,6 +118,12 @@ a {
     text-align: center;
     border: 0px;
     margin-bottom: 0px;
+    display: flex;
+    min-height: 120px;
+
+    h6 {
+      margin: auto;
+    }
   }
 
   >.card__footer.star-powers-group {
