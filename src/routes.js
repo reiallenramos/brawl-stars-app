@@ -5,7 +5,8 @@ import Clans from './components/Clans.vue'
 import BrawlerProfile from './components/BrawlerProfile.vue'
 
 const routes = [
-  { path: '/', component: Brawlers,
+  { path: '/', redirect: '/brawlers'},
+  { path: '/brawlers', component: Brawlers,
     children: [
       {
         path: '',
