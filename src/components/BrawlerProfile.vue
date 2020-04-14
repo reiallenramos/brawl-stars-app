@@ -19,7 +19,7 @@
 import MainContentSection from '../components/MainContentSection.vue'
 import ProfileHeader from '../components/BrawlerProfile/ProfileHeader.vue'
 import ProfileStarPowers from '../components/BrawlerProfile/ProfileStarPowers.vue'
-import RadarChartContainer from '../components/BrawlerProfile/RadarChartContainer.vue'
+import RadarChartContainer from '../components/Charts/RadarChartContainer.vue'
 
 export default {
   name: 'BrawlerProfile',

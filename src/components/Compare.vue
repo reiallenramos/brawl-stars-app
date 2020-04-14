@@ -1,12 +1,15 @@
 <template lang="pug">
   main-content
-    compare-brawler-selector(:handleToggleBrawler="toggleBrawler" :brawlers="brawlers")
-    radar-chart-container(:chartDatasets="chartDatasets")
+    .row
+      .six.columns
+        compare-brawler-selector(:handleToggleBrawler="toggleBrawler" :brawlers="brawlers")
+      .six.columns
+        bar-chart-container(:chartDatasets="chartDatasets")
 </template>
 
 <script>
 import MainContent from './MainContent.vue'
-import RadarChartContainer from '../components/BrawlerProfile/RadarChartContainer.vue'
+import BarChartContainer from '../components/Charts/BarChartContainer.vue'
 import CompareBrawlerSelector from '../components/Compare/CompareBrawlerSelector.vue'
 import BrawlersData from '../../public/sample-response-brawlers.json'
 var randomColor = require('randomcolor');
@@ -18,7 +21,7 @@ BrawlersData.items.forEach(b => {
 export default {
   name: 'Compare',
   components: {
-    RadarChartContainer,
+    BarChartContainer,
     CompareBrawlerSelector,
     BrawlersData,
     MainContent
