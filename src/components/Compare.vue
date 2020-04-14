@@ -1,10 +1,10 @@
 <template lang="pug">
   main-content
     .row
-      .six.columns
-        compare-brawler-selector(:handleToggleBrawler="toggleBrawler" :brawlers="brawlers")
-      .six.columns
+      .four.columns
         bar-chart-container(:chartDatasets="chartDatasets")
+      .eight.columns
+        compare-brawler-selector(:handleToggleBrawler="toggleBrawler" :brawlers="brawlers")
 </template>
 
 <script>
@@ -75,3 +75,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.chart-container {
+  width: 300px;
+  height: 300px;
+}
+</style>

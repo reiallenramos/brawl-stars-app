@@ -26,7 +26,7 @@ ul.brawler-list {
   li.brawler-icon-container {
     line-height: 0;
     list-style: none;
-    margin-left: 15px;
+    margin-left: 9px;
   
     &:hover {
       cursor: pointer;
