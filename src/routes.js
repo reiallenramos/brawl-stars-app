@@ -1,8 +1,5 @@
 import Brawlers from './components/Brawlers.vue'
 import BrawlersIndex from './components/BrawlersIndex.vue'
-import Compare from './components/Compare.vue'
-import Clans from './components/Clans.vue'
-import BrawlerProfile from './components/BrawlerProfile.vue'
 
 const routes = [
   { path: '/', redirect: '/brawlers'},
@@ -15,19 +12,19 @@ const routes = [
       },
       {
         path: ':name',
-        component: BrawlerProfile,
+        component: () => import( /* webpackChunkName: "brawlerProfile" */ "./components/BrawlerProfile" ),
         name: 'brawlerProfile'
       }
     ]
   },
   {
     path: '/compare',
-    component: Compare,
+    component: () => import( /* webpackChunkName: "compareHome" */ "./components/Compare" ),
     name: 'compareHome'
   },
   {
     path: '/clans',
-    component: Clans,
+    component: () => import( /* webpackChunkName: "clansHome" */ "./components/Clans" ),
     name: 'clansHome'
   },
 ];
